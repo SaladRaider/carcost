@@ -1,5 +1,9 @@
 /* https://colorlib.com/etc/metro-colors/#m-orangedark 
 http://www.exsus.com/highway-one-roadtrip
+
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Varela', sans-serif;
+font-family: 'Old Standard TT', serif;
 */
 /**
  * Normalize
@@ -381,6 +385,82 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+body {
+  background: url("../images/noise.png") #79c5ce; }
+
+h1 {
+  color: #fff;
+  font-family: 'Varela', sans-serif;
+  font-size: 56px;
+  margin: 0; }
+
+h3 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px; }
+
+p {
+  font-family: 'Varela', serif;
+  font-size: 19px;
+  line-height: 26px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+td {
+  padding: 5px; }
+
+.flipV {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV"; }
+
+.to-the-right {
+  left: 52%; }
+
+.car {
+  position: fixed;
+  left: 50%;
+  top: 200px;
+  -webkit-transform: translate(-110%, 0%);
+  -moz-transform: translate(-110%, 0%);
+  -ms-transform: translate(-110%, 0%);
+  transform: translate(-110%, 0%);
+  z-index: 402; }
+
+.car2 {
+  position: absolute;
+  -webkit-transform: translate(47.25%, 0%);
+  -moz-transform: translate(47.25%, 0%);
+  -ms-transform: translate(47.25%, 0%);
+  transform: translate(47.25%, 0%);
+  z-index: 402; }
+
+.car3 {
+  position: absolute;
+  -webkit-transform: translate(47.25%, -100%);
+  -moz-transform: translate(47.25%, -100%);
+  -ms-transform: translate(47.25%, -100%);
+  transform: translate(47.25%, -100%);
+  bottom: 0;
+  z-index: 402; }
+
+.orange {
+  color: #ec3d2f; }
+
+.no-overflow {
+  overflow: hidden; }
+
 .center-line {
   border-left-width: 2px;
   border-color: #da532c;
@@ -389,22 +469,86 @@ textarea {
   position: fixed;
   left: 50%; }
 
-.price-box-1, .price-box-2 {
+.centered, .abs-centered, .price-box, .price-box-1, .price-box-2 {
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%); }
+
+.abs-centered {
+  position: absolute; }
+
+.big-text-centered {
+  width: 100%;
+  text-align: center; }
+
+.price-box, .price-box-1, .price-box-2 {
   position: fixed;
-  left: 25%;
-  bottom: 20px;
-  width: 40%;
-  border: solid 4px #da532c;
+  left: 50%;
   -webkit-transform: translate(-50%, 0%);
   -moz-transform: translate(-50%, 0%);
   -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
+  bottom: 20px;
+  width: 40%;
+  border: solid 4px #fff;
   padding: 10px;
   text-align: center;
-  color: #da532c;
-  font-size: 52px; }
+  color: #fff;
+  font-size: 52px;
+  border-radius: 15px;
+  z-index: 1001; }
+
+.price-box-1, .price-box-2 {
+  left: 25%; }
 
 .price-box-2 {
   left: 75%; }
+
+.highway {
+  position: relative;
+  margin-top: 800px; }
+
+.city {
+  margin-bottom: -4px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  margin: -275px 0 0 -373px; }
+
+.hill {
+  position: absolute;
+  top: 0;
+  background: url("../images/hill.png") repeat-x;
+  width: 100%;
+  height: 130px;
+  margin: -150px 0 0 0; }
+
+.hill2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -100px 0 0 -1050px;
+  z-index: 1;
+  z-index: 201; }
+
+.hill3 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: -100px 0 0 250px;
+  z-index: 1;
+  z-index: 201; }
+
+.description {
+  width: 425px;
+  border: 1px #fff solid;
+  outline: 10px #222 solid;
+  background: #222;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  z-index: 900; }
 
 /*# sourceMappingURL=main.css.map */
