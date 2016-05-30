@@ -425,6 +425,15 @@ td {
   filter: FlipV;
   -ms-filter: "FlipV"; }
 
+.btn-outline {
+  border: solid 2px #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px; }
+
+.btn-outline:hover {
+  cursor: pointer; }
+
 .to-the-right {
   left: 52%; }
 

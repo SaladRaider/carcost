@@ -55,6 +55,17 @@ td {
 
 }
 
+.btn-outline {
+	border: solid 2px $white;
+	color: $white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.btn-outline:hover {
+	cursor: pointer;
+}
+
 .to-the-right {
 	left: 52%;
 	//@include transform(translate(110%, 0%));
